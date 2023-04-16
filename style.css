@@ -1,0 +1,200 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*
+ * author : AWO CARLOS
+ * site web : https://awo-carlos.dev/
+ * addresse mail : awocarlos55@gmail.com
+*/
+
+.form--quizz .quizz:nth-child(even){
+	background-color: #595959;
+}
+.quizz__input{
+	width: 100%;
+	border: 2px solid #405540;
+}
+.quizz__input input[type="text"]{
+	background: transparent;
+}
+.input--group{
+	padding: 5px;
+
+    max-width: -webkit-max-content;
+
+    max-width: -moz-max-content;
+
+    max-width: max-content;
+    margin: 10px auto;
+}
+
+.form--quizz .btn:hover{
+	    background:#a41515;
+	    color: inherit;
+}
+.form--quizz .btn{
+    padding: 7px 9px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    background-color: #712828;
+    border-radius: 5px;
+  
+
+    -webkit-transition: all .4s;
+  
+
+    -o-transition: all .4s;
+  
+
+    transition: all .4s;
+}
+
+
+.input--group-1{
+	width: 100%;
+	    max-width:unset;
+}
+.input--group--label{
+	text-align: center;
+	display: block;
+}
+.options{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-flex-flow: wrap;
+	    flex-flow: wrap;
+}
+.input--group input{
+	width: 70%;
+	display: block;
+	border-width: 2px;
+	border:2px solid #405540;
+	border-radius: 10px;
+	text-align: center;
+	padding: 5px 2px;
+	margin: 0 auto;
+
+}
+
+
+
+
+
+*[class*="error"]{
+	background-color: rgba(220,0,0,.5) !important;
+	border-color: rgba(255,0,0,.3) !important;
+	font-weight:bold;
+}
+*[class*="success"]{
+	background-color: rgba(0,250,0,.3) !important;
+	border-color:rgba(0,255,0,.7) !important;
+	font-weight:bold;
+}
+
+
+
+
+.root{
+	border: 2px solid aliceblue;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+	
+
+.quizz__header{
+	
+}
+.quizz__title{
+	text-align: left;
+font-size: 1.8em;
+padding-left: 15px;	
+}
+
+.quizz__body{
+border-top: 2px solid aliceblue;
+border-bottom: 2px solid aliceblue;
+}
+.quizz__body *{
+	padding: 5px;
+}
+.quizz__question{
+	text-align: center;
+	
+}
+.quizz__options__group{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	
+}
+
+
+.quizz__option{
+	padding: 1em 1em ;
+	border: 2px solid #000;
+	border-radius: 10px;
+	margin: 2px 2px;
+	background:#fff;
+	width: calc(50% - 4px);
+	-webkit-transition: border .3s ease-in-out;
+	-o-transition: border .3s ease-in-out;
+	transition: border .3s ease-in-out;
+	background: transparent;
+	
+}
+.quizz__option:hover{
+	border-color:#0057ff;
+}
+
+
+.quizz__footer{
+  padding: 5px;	
+}
+
+.quizz__footer .btn-group{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+
+}
+
+.next ,.prev{
+	border: 2px solid rgba(150,200,50,.5);
+	border-radius: 20px;
+	padding: 2px 8px;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+.next:hover ,.prev:hover{
+	background-color: rgba(147, 15, 120, 0.5);
+}
+
+
+
+
+
+/*****ecran entre 576 - 768**/
+  @media screen and  (max-width: 570px){
+  	.quizz__option{
+	width: calc(100% - 4px)
+	
+}
+
+  }
+/*****End ecran entre 576 - 768**/
